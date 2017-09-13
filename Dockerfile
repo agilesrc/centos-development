@@ -1,4 +1,4 @@
-FROM agilesrc/centos-java-maven
+FROM agilesrc/centos-java-maven:7-8-3
 
 #https://software.ecmwf.int/wiki/download/attachments/3473437/grib_api-1.14.7-Source.tar.gz?api=v2
 RUN yum install -y epel-release && \
